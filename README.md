@@ -38,7 +38,8 @@
 >
 >num = (int)(input())
 >print(isHappy(num))
-'''
+>```
+
 * Description of code
   
 ---

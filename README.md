@@ -7,5 +7,5 @@
 ---
 ## Week 5 Assignment
 
-> docker
+> '''docker exec ossp-container cat /etc/os-release'''
 

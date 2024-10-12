@@ -3,6 +3,10 @@
 ## Week 4 Assignment
 * Link of repository
 >https://github.com/kwonseungho0514/SWE_2021_41_2024_2_week_4
+* Code
+>```Python
+>history = []
+>def
 * Description of code
   
 ---

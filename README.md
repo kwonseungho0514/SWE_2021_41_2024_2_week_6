@@ -11,6 +11,12 @@
 > ```Shell
 > docker exec ossp-container cat /etc/os-release
 > ```
-> ```docker exec ossp-container git --version```
-> ```docker exec ossp-container python3 --version```
-> ```docker inspect --format="{{.HostConfig.Binds}}" ossp-container```
+> ```Shell
+> docker exec ossp-container git --version
+> ```
+> ```Shell
+> docker exec ossp-container python3 --version
+> ```
+> ```Shell
+> docker inspect --format="{{.HostConfig.Binds}}" ossp-container
+> ```

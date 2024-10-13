@@ -43,8 +43,11 @@
 * Description of code
 > 먼저 입력된 n이 범위에서 벗어난 값인지 확인한다. 만약 범위 내의 값이라면 n이 Happy Number인지 확인한다.
 > 여기서 Happy Number란 정수의 각 자리값을 더해서 새로운 정수를 만드는 과정을 반복할 때 특정한 값들이 반복되는 loop가 만들어 지고 그 값이 1로 수렴하는 수를 말한다.
-> 새롭게 만들어진 정수들은 history라는 array에 저장되고 기록된다. in_history 함수는 새로 만들어진 정수가 이전의 정수들에서 등장한 수인지 확인하고 loop이 만들어 졌으면 True를 아니면 False를 return한다.
-> next_n은 정수의 각 자리수를 더해서 만든 새로운 정수를 리턴한다.isHappy in_history함수를 이용해서 입력된 정수가 loop를 만들었는지 확인한다. 만약 만들지 않았다면 n을 next_n함수를 이용해서 다음 단계의 n으로 바꾸고 loop가 생길때까지 이 과> 정을 반복한다. 만약 이렇게 반복되는 loop값이 1이라면 Happy Number에 해당되므로 True를 반환하고 그렇지 않다면 False를 반환한다.
+> 새롭게 만들어진 정수들은 history라는 array에 저장되고 기록된다.
+> in_history 함수는 새로 만들어진 정수가 이전의 정수들에서 등장한 수인지 확인하고 loop이 만들어 졌으면 True를 아니면 False를 return한다.
+> next_n은 정수의 각 자리수를 더해서 만든 새로운 정수를 리턴한다.isHappy in_history함수를 이용해서 입력된 정수가 loop를 만들었는지 확인한다.
+> 만약 만들지 않았다면 n을 next_n함수를 이용해서 다음 단계의 n으로 바꾸고 loop가 생길때까지 이 과정을 반복한다.
+> 만약 이렇게 반복되는 loop값이 1이라면 Happy Number에 해당되므로 True를 반환하고 그렇지 않다면 False를 반환한다.
 ---
 ## Week 5 Assignment
 
